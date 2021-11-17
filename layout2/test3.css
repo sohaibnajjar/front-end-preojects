@@ -1,0 +1,115 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+}
+
+.main-section {
+  background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/db1f5b5a-3b51-43ff-865c-c4374fb57290/d2x26ow-a65f3d8e-0404-4c99-b330-4780c6722a3a.jpg/v1/fill/w_1280,h_720,q_75,strp/mounten_landscape_by_funkyferez_d2x26ow-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2RiMWY1YjVhLTNiNTEtNDNmZi04NjVjLWM0Mzc0ZmI1NzI5MFwvZDJ4MjZvdy1hNjVmM2Q4ZS0wNDA0LTRjOTktYjMzMC00NzgwYzY3MjJhM2EuanBnIiwiaGVpZ2h0IjoiPD03MjAiLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS53YXRlcm1hcmsiXSwid21rIjp7InBhdGgiOiJcL3dtXC9kYjFmNWI1YS0zYjUxLTQzZmYtODY1Yy1jNDM3NGZiNTcyOTBcL2Z1bmt5ZmVyZXotNC5wbmciLCJvcGFjaXR5Ijo5NSwicHJvcG9ydGlvbnMiOjAuNDUsImdyYXZpdHkiOiJjZW50ZXIifX0.JTC6JE8KYk00inYexBCstyvhJSa4lpaaV6deT4oPLF0);
+  background-repeat: no-repeat;
+
+  background-size: cover;
+}
+.window {
+  padding: 50px 50px 0px 50px;
+}
+.info ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  list-style: none;
+  /* justify-content: space-between; */
+  /* flex-wrap: wrap; */
+  margin-bottom: 20px;
+}
+
+.info li {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 250px;
+  height: 250px;
+  padding-top: 20px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(41, 41, 41);
+  flex: 1;
+}
+
+.info a {
+  color: dimgrey;
+  font-size: 50px;
+  margin: 20px 0px;
+}
+.info h3 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.info p {
+  text-align: center;
+  padding: 0px 25px;
+}
+
+.showcase {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.form-container {
+  background-color: black;
+  color: white;
+  padding: 30px 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.form-container h1 {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.form-container form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin-bottom: 20px;
+}
+
+.form-container form div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-bottom: rgb(194, 194, 194) solid 2px;
+}
+.form-container form div:nth-child(3) {
+  grid-column: span 2;
+}
+.btn {
+  background-color: white;
+  color: black;
+  border: none;
+  width: 100%;
+  height: 30px;
+  font-weight: bold;
+}
+.form-container p {
+  margin-top: 30px;
+}
+
+.form-container input {
+  color: rgb(100, 100, 100);
+  outline: none;
+  background-color: transparent;
+  border: none;
+
+  padding: 10px;
+}
+
+.message input {
+  padding-bottom: 50px;
+}
